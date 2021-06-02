@@ -1,0 +1,190 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Sina}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Kamali}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Indie Game Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Tehran/Iran}\\
+	\icon{Phone}{12}{+98 912 393 5925}\\
+	\icon{At}{12}{\href{mailto:sininoir@gmail.com}{sininoir@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Linkedin}{12}{\href{https://linkedin.com/in/CnaKamali}{Sina Kamali}}\\
+	\icon{Github}{12}{\href{https://github.com/PapaSinku}{github.com/PapaSinku}}\\
+	% \icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{About Me}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	I am a young developer from Iran. I am a great debugger and love programming, game development and solving all kinds of problems. In my opinion solving the problems around us using the knowledge we 
+	have acquired in life, is the ultimate goal that a person can follow, no matter how big or small the solved problems are.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{C}{70}
+		\baritem{C++}{85}
+		\baritem{Java}{70}
+		\baritem{Python}{100}
+		\baritem{Javascript}{65}
+		\baritem{C\#}{75}
+		\baritem{Git}{80}
+		\baritem{LaTeX}{65}
+		\baritem{Linux}{85}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{6/git, 4/Office, 6/Debugging, 3/Unity, 5/UnrealEngine}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{10/2019 -- 9/2020}
+		{Lead Developer}
+		{Hamim Co.}
+		{Developed a framework for predicting and trading in the crypto-currency market. It used a real-time Reinforcement learning algorithm alongside with typical technical analysis. The project was developed with Python in a group of 5.\\ \texttt{Python}\slashsep\texttt{ML}\slashsep\texttt{Trading}\slashsep\texttt{Linux}}
+	\entry
+		{7/2019 -- 10/2019\\\footnotesize{part time}}
+		{Programmer \& Data Scientist}
+		{University of Tehran}
+		{Worked on a Fraud Detection agent used for detecting fake clicks on ads. Our final solution got an accuracy of 85\% on the official Kaggle test data. The project was written in Python. \\ \texttt{Python}\slashsep\texttt{ML}\slashsep\texttt{Data Science}\slashsep\texttt{Linux} }
+	\entry
+		{2/2020 -- On Going\\\footnotesize{part time}}
+		{Teaching Assistant of The Discrete Mathematics Course}
+		{University of Tehran}
+		{Working as a TA in the discrete mathematics course. My responsibilities involve designing problems, quizes and grading them.    \\ \texttt{Teaching Assistant}\slashsep\texttt{Latex}\slashsep\texttt{Discreet Mathematics}}
+	\entry
+		{9/2020 -- On Going\\\footnotesize{part time}}
+		{Teaching Assistant of The Data Structure Course}
+		{University of Tehran}
+		{Working as a TA in the Data Structure course. My responsibilities involve designing problems, quizes, projects and grading them.    \\ \texttt{Teaching Assistant}\slashsep\texttt{Python}\slashsep\texttt{Data Structure}}
+	\entry
+		{2/2021 -- On Going\\\footnotesize{part time}}
+		{Teaching Assistant of The Artificial Intelligence Course}
+		{University of Tehran}
+		{Working as a TA in the artificial intelligence course. My responsibilities involve designing problems, quizes and grading them.    \\ \texttt{Teaching Assistant}\slashsep\texttt{Python}\slashsep\texttt{Pandas}\slashsep\texttt{Artificial Intelligence}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2018 -- On Going}
+		{Bachelor's Degree}
+		{University of Tehran}
+		{Studying to get a Bachelor's Degree on Computer Engineering.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\cvsect{Projects}
+
+\begin{entrylist}
+	\entry
+		{2021}
+		{Sins \& Virtues}
+		{Independent}
+		{A Text-Based game built from the ground up by myself using Python. The game is a modern take on old Text-Based RPGs with some fun new mechanics like a day-night cycle, an upgrade system and many more. This project is available on my personal git.\\ \texttt{Python}\slashsep\texttt{C++}\slashsep\texttt{Game Development}\slashsep\texttt{Linux}}
+	\entry
+		{2020}
+		{Meriq}
+		{Independent}
+		{A 3D Top-Down shooter made by myself using Unreal Engine Blueprints. The game offers many fun gameplay elements like an upgrade system and a dynamic difficulty adjustment system to tune your game to the way you like to play. This project is ready and has a Shipment build but has not been released yet.\\ \texttt{C++}\slashsep\texttt{Blueprints}\slashsep\texttt{Game Development}\slashsep\texttt{Unreal Engine}}
+	\entry
+		{2020}
+		{Discrete Mathematics Contest Bot(DMC Bot)}
+		{DM course at University of Tehran}
+		{A mail bot developed by me and some other friends for holding the DM Contest in the global pandemic of 2020. The project was developed with Python.\\ \texttt{Python}\slashsep\texttt{Mail Bot}\slashsep\texttt{Discrete Mathematics}}
+	\entry
+		{2019}
+		{Color Switch Replica}
+		{Independent}
+		{A smartphone game similar to Color Switch Developed using C\# and the Unity Engine by myself. The game had some fun features like a shop where you could buy upgrades for your character.\\ \texttt{C\#}\slashsep\texttt{Unity Engine}\slashsep\texttt{Game Development}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Persian} - native\\
+	\textbf{English} - proficient\\
+	\textbf{Arabic}  - rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	I love gaming, programming, watching movies and series and doing adrenaline filled activities.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Non profit}
+	
+	I have developed several Open Source projects to help others on my github account.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
